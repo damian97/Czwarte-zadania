@@ -37,7 +37,7 @@ public class Zadanie3 {
 		
 		}
 		
-		//dsdsdsdsd
+		//dsdsdsdsdss
 		
 		
 		
