@@ -19,8 +19,7 @@ public class Zadanie1 {
 					
 			char znak = ciag.charAt(i);
 			String znaks=Character.toString(znak);
-			
-			
+				
 			
 		if( znaks.equalsIgnoreCase(ostatnias) ) {
 		
@@ -30,17 +29,11 @@ public class Zadanie1 {
 			
 			
 		}
-			
-		
-			
-		}
-		
-		
-		
-		System.out.println(licznik);
-		
-		
 	
+		}
+
+		System.out.println(licznik);
+
 	}
 		
 }
