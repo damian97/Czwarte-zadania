@@ -9,37 +9,22 @@ public class Zadanie3 {
 		String ciag_znakow = odczyt.nextLine();
 		
 		StringBuilder znakow_ciag = new StringBuilder().append(ciag_znakow).reverse();
-		int i=0,j=ciag_znakow.length();
+		String znakow_ciag1 = new StringBuilder().append(znakow_ciag).toString();
 		
-		System.out.println(znakow_ciag);	
-		String ostatni_string ="";
-		
-		
-		
-		while(i<=ciag_znakow.length()) {
+		if (ciag_znakow.equalsIgnoreCase(znakow_ciag1)) {
 			
-			char pierwszy = ciag_znakow.charAt(i);
-			String pierwszy_string = Character.toString(pierwszy);
-			char ostatni = ciag_znakow.charAt(j);
-			ostatni_string = Character.toString(ostatni);
+			System.out.println("Wyraz jest palindromem");	
 			
-			if (pierwszy_string.equalsIgnoreCase(ostatni_string)) {
-				
-				
-				System.out.println("Dziala");
-				
-				
-			}
+		}else {
 			
+			System.out.println("Wyraz nie jest palindromem");	
 			
-			i++;
-			j--;
-		
 		}
 		
+		
+		
 
-		
-		
+	
 		
 		
 		
